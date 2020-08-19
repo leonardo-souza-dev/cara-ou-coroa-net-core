@@ -3,7 +3,7 @@
 namespace CaraOuCoroa.Controllers
 {
     [ApiController]
-    [Route("api")]
+    [Route("")]
     public class JogarController : ControllerBase
     {
         [HttpGet]
