@@ -22,7 +22,7 @@ namespace CaraOuCoroa
           }
           else
           {
-            return "...";
+            return "..f.";
           }
         }
     }
