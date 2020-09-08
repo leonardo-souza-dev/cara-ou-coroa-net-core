@@ -11,5 +11,17 @@ namespace CaraOuCoroa
             var numero = new Random().Next(1,100);
             return numero % 2 == 0 ? "cara" : "coroa";
         }
+        
+        public override string ToString ()
+        {
+          if (this.Resultado.Count == 0)
+          {
+            return null; // Noncompliant
+          }
+          else
+          {
+            return "...";
+          }
+        }
     }
 }
