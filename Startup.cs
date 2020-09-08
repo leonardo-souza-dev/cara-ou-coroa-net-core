@@ -28,9 +28,9 @@ namespace CaraOuCoroa
                 c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "Cara ou coroa API",
+                        Title = "Cara ou coroa API!",
                         Version = "v1",
-                        Description = "Api que retorna um aleatório para cara ou coroa",
+                        Description = "Api que retorna um aleatÃ³rio para cara ou coroa",
                         Contact = new OpenApiContact
                         {
                             Name = "Leonardo Souza",
