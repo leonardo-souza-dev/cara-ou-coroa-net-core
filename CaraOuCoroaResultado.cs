@@ -14,7 +14,7 @@ namespace CaraOuCoroa
         
         public override string ToString ()
         {
-          if (this.Resultado.Count == 0)
+          if (String.IsNullOrEmpty(this.Resultado))
           {
             return null; // Noncompliant
           }
